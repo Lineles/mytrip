@@ -1,6 +1,6 @@
-import "./Header.css"
+import "./Footer.css"
 
-function Header ( ) {
+function Footer ( ) {
 
 
     return( 
@@ -12,4 +12,4 @@ function Header ( ) {
     )
 } 
 
-export default Header; 
+export default Footer; 

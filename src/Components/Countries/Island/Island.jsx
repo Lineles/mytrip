@@ -1,6 +1,6 @@
-import "./Header.css"
+import "./Island.css"
 
-function Header ( ) {
+function Island ( ) {
 
 
     return( 
@@ -12,4 +12,4 @@ function Header ( ) {
     )
 } 
 
-export default Header; 
+export default Island; 
