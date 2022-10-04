@@ -13,3 +13,22 @@
     --Jetcolor: #39393A ; 
     --Blackcolor: #07070A ;
   }
+
+  .header-container{
+    width: 100%;
+    overflow: hidden;
+    height: 250px;
+  }
+
+  .header-banner{
+    width: 100%;
+  }
+
+  .header-h1{
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    top: -20px;
+    left: 54%;
+    font-size: 97px;
+    text-shadow: 12px 12px 6px var(--Charcoalcolor);
+  }
