@@ -1,3 +1,4 @@
+import Countries from "../Countries/Countries";
 import "./HomePage.css"
 
 function HomePage ( ) {
@@ -6,8 +7,8 @@ function HomePage ( ) {
     return( 
 
         <div> 
-
-
+            <Countries /> 
+            
         </div>
     )
 } 
