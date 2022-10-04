@@ -6,23 +6,27 @@ function Countries ( ) {
     return( 
 
         <div className="Countries-container"> 
-            <div>
-                <p>There is a World full of ADVENTURE!</p>
-                <p>!!! FIND YOURS !!!</p>
+            <div className="Countries-box1">
+                <h1>There is a World full of ADVENTURE!</h1>
+                <h1>!!! FIND YOURS !!!</h1>
             </div>
-            <div>
-                <select>
-                    <option>Island</option>
-                    <option>Scottland</option>
-                    <option></option>
-                    <option></option>
-                    <option></option>
-                    <option></option>
-                    <option></option>
-                    <option></option>
-                    <option></option>
-                </select>
-                <button> Find </button>
+            <div className="Countries-box2">
+                <img src="\IMAGES\GOPR4921.JPG" alt="" className="Countries-box2-img"></img>
+                
+                <form className="Countries-box2-form">
+                    <select className="Countries-box2-select">
+                        <option>Island</option>
+                        <option>Scottland</option>
+                        <option></option>
+                        <option></option>
+                        <option></option>
+                        <option></option>
+                        <option></option>
+                        <option></option>
+                        <option></option>
+                    </select>
+                    <button className="Countries-box2-button"> Find </button>
+                </form>
             </div>
 
         </div>

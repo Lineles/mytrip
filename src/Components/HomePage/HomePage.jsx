@@ -8,7 +8,7 @@ function HomePage ( ) {
 
         <div> 
             <Countries /> 
-
+            
         </div>
     )
 } 

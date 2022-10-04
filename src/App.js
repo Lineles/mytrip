@@ -12,6 +12,7 @@ import Island from "./Components/Countries/Island/Island";
 
 import './App.css';
 import Footer from "./Components/Footer/Footer";
+import Countries from "./Components/Countries/Countries";
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
       <Navigation /> 
       <Routes> 
         <Route path="/" element={ <HomePage />} /> 
-        <Route path="/Countries" element={ '#'} />
+        <Route path="/Countries" element={ <Countries />} />
         <Route path="/Scottland" element={ <Scottland /> }/>
         <Route path="/Island" element={ <Island /> }/>
       </Routes>  
