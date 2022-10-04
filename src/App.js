@@ -20,6 +20,7 @@ function App() {
       <Navigation /> 
       <Routes> 
         <Route path="/" element={ <HomePage />} /> 
+        <Route path="/Countries" element={ '#'} />
         <Route path="/Scottland" element={ <Scottland /> }/>
         <Route path="/Island" element={ <Island /> }/>
       </Routes>  

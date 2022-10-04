@@ -13,3 +13,32 @@
     --Jetcolor: #39393A ; 
     --Blackcolor: #07070A ;
   }
+
+  .Navigation-Container{
+    background-color: var(--Graycolor);
+    height: 37px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 80px;
+    border-bottom: solid 2px var(--Purplecolor);
+    border-top: solid 2px var(--Purplecolor);
+  }
+
+
+  .nav-link{
+    color: var(--Platinumcolor);
+    font-size: 16px;
+    font-weight: 700;
+    border-left: solid 2px var(--Jetcolor);
+    text-decoration: none;
+    padding: 0 5px;
+    margin-right: 20px;
+  }
+
+  .nav-link:hover{
+    color: var(--Almondcolor);
+    border-left: solid 2px var(--Coralcolor);
+    border-bottom: solid 2px var(--Aquamarinecolor);
+  } 
