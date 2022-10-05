@@ -13,3 +13,10 @@
     --Jetcolor: #39393A ; 
     --Blackcolor: #07070A ;
   }
+
+  .Scottland-main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
