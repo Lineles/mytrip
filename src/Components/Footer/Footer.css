@@ -13,3 +13,13 @@
     --Jetcolor: #39393A ; 
     --Blackcolor: #07070A ;
   }
+
+
+  .Footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Charcoalcolor);
+    border-top: solid 2px var(--Purplecolor);
+  }

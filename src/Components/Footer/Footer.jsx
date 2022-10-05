@@ -5,9 +5,9 @@ function Footer ( ) {
 
     return( 
 
-        <div> 
-            
-
+        <div className="Footer-container"> 
+            <p>Contact</p>
+            <p>Info</p>
         </div>
     )
 } 
