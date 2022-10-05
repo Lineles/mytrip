@@ -20,6 +20,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
     padding-top: 40px;
     padding-bottom: 40px;
     background-color: var(--Charcoalcolor);
@@ -86,4 +87,41 @@
     color: var(--RickBlackcolor);
     font-weight: 900;
     margin: 5px;
+}
+
+
+.Countries-box3{
+    width: 87%;
+    height: 320px;
+    text-align: center;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 8px 8px 6px var(--RickBlackcolor);
+    border: solid black 1px;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--RickBlackcolor);
+}
+
+.Country-selection{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 32px;
+}
+
+.Country-selection-h1{
+    color: var(--Platinumcolor);
+    margin-top: 0px;
+    font-size: 36px;
+}
+
+.Country-selection-link{
+    text-decoration: none;
+    color: var(--Almondcolor);
+    font-size: 16px;
 }
