@@ -1,12 +1,12 @@
-import "./Island.css"
+import "./Sweeden.css"
 
-function  Island ( ) {
+function  Sweeden ( ) {
 
 
     return( 
 
-        <div className="Island-main-container"> 
-            <div className="Island-top10">
+        <div className="Sweeden-main-container"> 
+            <div className="Sweeden-top10">
                 <h1> Top 10 to see </h1>
                     <ul>
                         <li><a href="#" >#</a></li>
@@ -21,24 +21,24 @@ function  Island ( ) {
                         <li><a href="#" >#</a></li>
                     </ul>
             </div>
-            <div className="Island-roadtrips">
+            <div className="Sweeden-roadtrips">
                 <h1> # </h1>
-                <div className="Island-roadtrips-flex">
-                    <div className="Island-roadtrips-info">
+                <div className="Sweeden-roadtrips-flex">
+                    <div className="Sweeden-roadtrips-info">
                         <p>#</p>
                         <p>#</p>
                         <p>#</p>
                         <p>#</p>
                     </div>
 
-                    <img src="#" alt="" className="Island-roadtrips-NorthCost500"></img>
+                    <img src="#" alt="" className="Sweeden-roadtrips-NorthCost500"></img>
                 </div>
             </div>
-            <div className="Island-funnstuff">
+            <div className="Sweeden-funnstuff">
 
 
             </div>
-            <div className="Island-coments">
+            <div className="Sweeden-coments">
 
 
             </div>
@@ -55,4 +55,4 @@ function  Island ( ) {
     )
 } 
 
-export default Island; 
+export default Sweeden; 

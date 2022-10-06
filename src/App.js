@@ -24,6 +24,7 @@ function App() {
         <Route path="/Countries" element={ <Countries />} />
         <Route path="/Scottland" element={ <Scottland /> }/>
         <Route path="/Island" element={ <Island /> }/>
+        <Route path="/Sweeden" element={ <Island /> }/>
       </Routes>  
       <Footer />      
   </Router>  

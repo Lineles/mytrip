@@ -1,12 +1,12 @@
-import "./Island.css"
+import "./#.css"
 
-function  Island ( ) {
+function  # ( ) {
 
 
     return( 
 
-        <div className="Island-main-container"> 
-            <div className="Island-top10">
+        <div className="#-main-container"> 
+            <div className="#-top10">
                 <h1> Top 10 to see </h1>
                     <ul>
                         <li><a href="#" >#</a></li>
@@ -21,24 +21,24 @@ function  Island ( ) {
                         <li><a href="#" >#</a></li>
                     </ul>
             </div>
-            <div className="Island-roadtrips">
+            <div className="#-roadtrips">
                 <h1> # </h1>
-                <div className="Island-roadtrips-flex">
-                    <div className="Island-roadtrips-info">
+                <div className="#-roadtrips-flex">
+                    <div className="#-roadtrips-info">
                         <p>#</p>
                         <p>#</p>
                         <p>#</p>
                         <p>#</p>
                     </div>
 
-                    <img src="#" alt="" className="Island-roadtrips-NorthCost500"></img>
+                    <img src="#" alt="" className="#-roadtrips-NorthCost500"></img>
                 </div>
             </div>
-            <div className="Island-funnstuff">
+            <div className="#-funnstuff">
 
 
             </div>
-            <div className="Island-coments">
+            <div className="#-coments">
 
 
             </div>
@@ -55,4 +55,4 @@ function  Island ( ) {
     )
 } 
 
-export default Island; 
+export default #; 

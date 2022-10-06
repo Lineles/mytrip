@@ -29,6 +29,7 @@ function Countries ( ) {
                     <h1 className="Country-selection-h1">Europe</h1>
                     <Link to={"/Scottland"} className="Country-selection-link" >Scottland </Link>
                     <Link to={"/Island"} className="Country-selection-link">Island </Link>
+                    <Link to={"/Sweeden"} className="Country-selection-link">Sweeden </Link>
                 </div>
                 <div className="Country-selection">
                     <h1 className="Country-selection-h1">Asia</h1>

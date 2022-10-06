@@ -1,15 +1,90 @@
 :root {
-    --Platinumcolor: #E6E6E6 ;
-    --Almondcolor: #FFEAD0 ; 
-    --Coralcolor: #FF8552 ;
-    --Taupeecolor: #96616B ;
-    --UltraRedcolor: #F76F8E ;
-    --Purplecolor: #7F055F ; 
-    --Aquamarinecolor: #85FFC7;
-    --Skobeloffcolor: #297373 ;
-    --RickBlackcolor: #113537 ;
-    --Charcoalcolor: #37505C ;
-    --Graycolor: #4A525A ;
-    --Jetcolor: #39393A ; 
-    --Blackcolor: #07070A ;
-  }
+  --Platinumcolor: #E6E6E6 ;
+  --Almondcolor: #FFEAD0 ; 
+  --Coralcolor: #FF8552 ;
+  --Taupeecolor: #96616B ;
+  --UltraRedcolor: #F76F8E ;
+  --Purplecolor: #7F055F ; 
+  --Aquamarinecolor: #85FFC7;
+  --Skobeloffcolor: #297373 ;
+  --RickBlackcolor: #113537 ;
+  --Charcoalcolor: #37505C ;
+  --Graycolor: #4A525A ;
+  --Jetcolor: #39393A ; 
+  --Blackcolor: #07070A ;
+}
+
+.Island-main-container{
+  display: grid;
+  width: 100%;
+  grid-template-areas:
+      "top10 roadtrip"
+      "top10 roadtrip"
+      "coments coments";
+  grid-template-rows: 550px 1fr 200px;
+  grid-template-columns: 450px 1fr;
+  background-color: var(--Charcoalcolor);
+}
+
+.Island-top10{
+  grid-area: top10;
+  background-color: #8ca0ff;
+  margin: 20px;
+  text-align: start;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.Island-roadtrips{
+  grid-area: roadtrip;
+  background-color: #ffa08c;
+  margin: 20px;
+  text-align: start;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding: 0 34px;
+}
+
+.Island-funnstuff{
+  grid-area: funnstuff;
+  background-color: #ffff64;
+  margin: 20px;
+  text-align: start;
+  border-radius: 32px;
+}
+
+.Island-roadtrips-flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.Island-roadtrips-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 50%;
+  padding-right: 100px;
+}
+
+.Island-roadtrips-NorthCost500{
+  width: 45%;
+  border: solid black 1px;
+  border-radius: 100px;
+}  
+
+.Island-coments{
+  grid-area: coments;
+  background-color: #8cffa0;
+  margin: 20px;
+  text-align: start;
+  border-radius: 32px;
+}
